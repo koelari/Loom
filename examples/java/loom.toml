@@ -1,0 +1,12 @@
+[default]
+paths = ["bin"]
+
+[default.env]
+JAVA_HOME = { path = "." }
+
+# A version can declare a different SDK layout. This replaces the whole default.
+# [versions."25.0.1"]
+# paths = ["Contents/Home/bin"]
+#
+# [versions."25.0.1".env]
+# JAVA_HOME = { path = "Contents/Home" }
